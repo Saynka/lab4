@@ -1,12 +1,14 @@
 
 @media screen and (min-width:768px){
   main{
+    margin: auto !important; 
    justify-content: center;
     display: grid;
     grid-template-columns: 200px 190px 190px 190px 190px;
     grid-template-rows: 100px 200px 250px 150px;
     width: 960px;    
 }
+
 
 div{
   justify-content: center;
@@ -132,6 +134,7 @@ div{
 
 @media screen and (min-width:1024px){
   main{
+    margin: auto; 
     justify-content: center;
      display: grid;
      grid-template-columns: 200px 190px 190px 190px 190px;
